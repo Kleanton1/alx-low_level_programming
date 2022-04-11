@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints lower and upper case alphsbets in same line
+ * Description: Prints lower and upper case alphabets in same line
  * Return: 0
  */
 int main(void)
@@ -16,5 +16,5 @@ int main(void)
 
 	putchar('\n');
 
-	return (0)
+	return (0);
 }
