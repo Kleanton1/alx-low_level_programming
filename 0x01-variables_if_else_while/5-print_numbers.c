@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Description: prints all single digit numbers of base 10
  * Return: (0)
