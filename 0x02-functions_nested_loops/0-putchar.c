@@ -1,11 +1,10 @@
 #include "main.h"
-
-/* main - Entry point  
- * 
- * 
- * Return: nothing, returns void
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
-int _putchar(char c)
+
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
