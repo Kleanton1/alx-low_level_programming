@@ -2,6 +2,7 @@
 /* a program that prints _putchar, followed by a new line and returns to 0 */
 int main(void)
 {
+	int _putchar;
 	
 	_putchar('_');
 	_putchar('p');
