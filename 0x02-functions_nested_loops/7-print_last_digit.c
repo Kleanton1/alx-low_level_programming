@@ -18,8 +18,6 @@ int print_last_digit(int n)
 {
 	long m = INT_MIN;
 	m++;
-
-
 	_putchar(m % 10 + '0');
 	return (m % 10);
 }
