@@ -1,29 +1,34 @@
 #include "main.h"
+#include <limits.h>
 
 /**
- * jack_bauer - function prints every minutes of the day
+ * print_last_digit - function prints the last digit of n
  *
- * Return: null.
+ * @n: any number as parameter
+ *
+ * Return: n%10 if n>=0, -n%10 if n<0
  */
 
-void jack_bauer(void)
+int print_last_digit(int n)
+{
+	if (n < 0)
 {
 
-	int a;
-	int b;
+	if (n == INT_MIN)
+{
+	long m = INT_MIN;
+	m++;
 
-	for (a = 0; a <= 23; a++)
-{
-	for (b = 0; b <= 59; b++)
-{
-	_putchar(a / 10 + '0');
-	_putchar(a % 10 + '0');
-	_putchar(':');
-	_putchar(b / 10 + '0');
-	_putchar(b % 10 + '0');
-	_putchar('\n');
+	_putchar(m % 10 + '0');
+	return (m % 10);
+}
+	
+	n = -n;
+	_putchar(n % 10 + '0');
+	return (n % 10);
 }
 
-}
+	_putchar(n % 10 + '0');
+	return (n % 10);
 
 }
