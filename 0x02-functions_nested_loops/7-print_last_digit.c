@@ -19,10 +19,11 @@ int print_last_digit(int n)
 	long m = INT_MIN;
 	m++;
 
+
 	_putchar(m % 10 + '0');
 	return (m % 10);
 }
-	
+
 	n = -n;
 	_putchar(n % 10 + '0');
 	return (n % 10);
