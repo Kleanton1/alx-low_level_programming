@@ -1,4 +1,4 @@
-#includew "main.h"
+#include "main.h"
 
 /**
  * times_table - function that prints multiplication of numbers
