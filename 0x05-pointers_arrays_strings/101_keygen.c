@@ -27,8 +27,8 @@ int main(void)
 	total -= num;
 }
 	printf("%c", total);
-	return (0);
 
-	  
+
+	return (0);
 
 }
