@@ -1,19 +1,12 @@
 
 #include "main.h"
 
-
-
 /**
+ * rev_string - reverses a string
  *
- *  * rev_string - reverses a string
- *
- *   * @s: a pointer for char input
- *
- *    *
- *
- *     * Return: returns nothing
- *
- *      */
+ * @s: a pointer for char input
+ * Return: returns nothing
+ */
 
 void rev_string(char *s)
 
@@ -67,8 +60,6 @@ void rev_string(char *s)
 
 		end_c--;
 
-
-
 	}
 
-}
+i}
