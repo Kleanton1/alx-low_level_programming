@@ -9,14 +9,14 @@
 
 void _puts(char *str)
 {
-  char *c;
-  int k;
+	char *c;
+	int k;
 
-  c = str;
+	c = str;
 
-  for (k = 0; c[k]; k++)
-    {
-      _putchar (c[k]);
-    }
-  _putchar('\n');
+	for (k = 0; c[k]; k++)
+	{
+	_putchar (c[k]);
+	}
+	_putchar('\n');
 }
