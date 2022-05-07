@@ -3,7 +3,7 @@
 int main(void)
 {
 
-_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+_puts("\" My goal is to be the best hacker\"\n\t- Emma");
 return (0);
 
 }
