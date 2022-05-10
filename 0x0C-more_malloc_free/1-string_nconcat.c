@@ -2,14 +2,10 @@
 
 #include <stdlib.h>
 
-
-
 /**
  * string_nconcat - concatenates two strings.
  * s1: first string to copy
- *
  * @s2: second string to copy
- *
  * @n: number of bytes of s2 to copy
  *
  * Return: char pointer to newly allocated place in memory
@@ -23,8 +19,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	char *s;
 
-
-
 	if (s1 == NULL)
 
 		i = 0;
@@ -32,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	else
 
 	{
-		
+
 		for (i = 0; s1[i]; i++)
 			;
 	}
