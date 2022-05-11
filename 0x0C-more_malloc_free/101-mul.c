@@ -24,11 +24,11 @@ void _print(char *str, int l)
 	if (str[i] != '0')
 		j = 1;
 	if (j || i == l - 1)
-		
+
 		_putchar(str[i]);
 	i++;
 	}
-	
+
 	_putchar('\n');
 	free(str);
 
@@ -50,7 +50,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	int j, k, mul, mulrem, add, addrem;
 
 	mulrem = addrem = 0;
-	
+
 	for (j = num_index, k = dest_index; j >= 0; j--, k--)
 	{
 
@@ -84,16 +84,16 @@ int check_for_digits(char **av)
 {
 
 	int i, j;
-	
+
 	for (i = 1; i < 3; i++)
 	{
 
 		for (j = 0; av[i][j]; j++)
 		{
-			
+
 			if (av[i][j] < '0' || av[i][j] > '9')
 				return (1);
-		
+
 		}
 	}
 	return (0);
